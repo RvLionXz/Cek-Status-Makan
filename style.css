@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+.food-icon {
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+
+}
+.container {
+    flex-direction: column;
+    min-height: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.judul {
+    padding-top: 50px;
+    text-align: center;
+    line-height: 0.3vh;
+}
+.judul h1 {
+    font-size: 3vh;
+}
+
+.judul p {
+    font-size: 1.5vh;
+}
+
+.tombol {
+    padding-top: 5vh;
+    display: flex;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#makanInput {
+    text-align: center;
+    background-color: #000;
+    width: 30vh;
+    padding: 2vh;
+    border-radius: 50px;
+    transition-duration: 0.5s;
+    outline: #fff;
+    border-radius: 3px solid #fff;
+    color: #fff;
+}
+
+#makanInput:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+
+#checkButton {
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    width: 10vh;
+    padding: 2vh;
+    border-radius: 50px;
+    outline: #fff;
+    border: 3px solid #fff;
+    transition-duration: 0.5s;
+}
+
+#checkButton:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+
+.result{
+    padding-top: 100px;
+    text-align: center;
+    width: auto;
+    color: #fff;
+}
+
+
+#statusMakan {
+    line-height: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#quote {
+    font-size: 14px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.fotter {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    min-height: auto;
+    line-height: 0.1vh;
+}
+.contact {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .contact h1:nth-child(1){
+    font-size: 3vh;
+    color: white;
+  }
+  .contact p:nth-child(2){
+    color: white;
+    font-size: 1.4vh;
+    text-align: center;
+    margin-top: 0.1vh;
+  }
+
+  .social {
+    padding: 1vh;
+  }
+  
+  .social a{
+    color: white;
+    font-size: 3.5vh;
+    padding: 20px 10px;
+  }
+
+.end {
+    font-size: 1.4vh;
+}
+
+@media only screen and (max-width: 768px) {
+    .food-icon {
+        padding-top: 5vh;
+    }
+
+    .judul {
+        padding-top: 1vh;
+    }
+
+    .tombol {
+        padding-top: 3vh;
+        gap: 2vh;
+    }
+
+    
+    .result {
+        padding-top: 3vh;
+    }
+    
+    #makanInput {
+        width: 24vh;
+        text-align: center;
+    }
+
+    #checkButton {
+        width: 10vh;
+    }
+    
+    #quote {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #statusMakan {
+        font-size: 16px;
+    }
+    #quote {
+        font-size: 12px;
+    }
+}
